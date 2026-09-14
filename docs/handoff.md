@@ -5,11 +5,7 @@
 - Final prototype requirements are in `SPECIFICATION.md`.
 - Repository structure and lifecycle are in `docs/architecture.md`.
 - Initial official-source reconnaissance is in `docs/sources.md`.
-- Issue #1 implements the first bill and enacted-law slice for the June 1,
-  1789 Oaths Act.
-- The effective-state frontier is June 1, 1789. The Act's five substantive
-  sections are under `effective/uncodified/` because the United States Code
-  did not yet exist.
+- No law or bill has been imported.
 - No runtime, package installation, or build is required.
 - Repository contribution and agent instructions are in `AGENTS.md`.
 
@@ -26,26 +22,20 @@ The initial source map includes:
 - Senate vote pages/XML; and
 - Congress.gov presidential-action guidance.
 
-## First imported enactment
+## Next working issue
 
-- Bill record: `bills/congress-001/house-bill-oaths-act.md`.
-- Enacted law: `enacted/congress-001/chapter-001-oaths-act.md`.
-- Historical effective state:
-  `effective/uncodified/congress-001/chapter-001-oaths-act.md`.
-- Source and disposition review:
-  `docs/findings/1789-oaths-act-source-review.md`.
-- The checked sources identify a five-member House preparation committee but
-  no modern-style primary sponsor, cosponsors, bill number, complete version
-  sequence, or member-level passage votes. Those gaps are explicit in the
-  bill and enacted-law records.
-- Later research establishes that Revised Statutes §5596 repealed the
-  original Act in 1874 and that sections 2 and 3 have later statutory
-  descendants. Those future changes are documented but are not projected
-  backward into the June 1, 1789 effective tree.
+Import the June 1, 1789 Oaths Act as the first complete enactment slice. Before writing its text:
+
+1. inspect the exact Volume 1 pages;
+2. identify its Statutes at Large citation;
+3. identify supported House/Senate actions and vote evidence;
+4. determine its Code/uncodified disposition from OLRC and subsequent official law;
+5. write acceptance scenarios in the issue; and
+6. open one bill branch/PR without inventing unavailable sponsors or votes.
 
 ## Recommended following issue
 
-Issue #2 should research and select one small modern enacted law whose official record includes complete bill text, backers, chamber action, enactment, and a limited direct Code amendment.
+Research and select one small modern enacted law whose official record includes complete bill text, backers, chamber action, enactment, and a limited direct Code amendment. Selection should be a documented issue before import begins.
 
 ## Known risks
 
@@ -59,7 +49,3 @@ Issue #2 should research and select one small modern enacted law whose official 
 - Specification citation mapping passed the grounded-citation checker.
 - Repository scaffold files were reviewed for required paths and project constraints.
 - Official source URLs were discovered through live web search on 2026-09-14.
-- The complete five-section Act was compared with the official page images
-  for 1 Stat. 23–24, including the printed `[House of]` brackets.
-- OLRC Table III and later official codification/repeal sources were checked
-  for the Act's current disposition.

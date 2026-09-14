@@ -7,26 +7,6 @@
 - URL for each source used.
 - A plain statement for material facts unavailable from the checked sources.
 
-## Early legislation
-
-- If the checked record supplies no bill number, use a descriptive repository
-  identifier and explicitly label it as non-historical.
-- A committee ordered to prepare or report a bill is recorded by that exact
-  procedural role. Committee membership is not silently converted into
-  sponsorship or cosponsorship.
-- When no individual primary sponsor is supported, use the narrowest supported
-  institutional Git author and explain the fallback in the bill document.
-- The effective tree follows enactment chronology. Do not back-project a later
-  Revised Statutes or U.S. Code classification into an earlier date.
-
-## Transcription
-
-- Preserve enacted wording, punctuation, spelling, and printed editorial
-  brackets.
-- Normalize line wrapping, line-end hyphenation, small capitals, and italics
-  only when the document states that those typography changes were made.
-- Compare historical OCR with page images before treating it as enacted text.
-
 ## Preferred order
 
 1. GovInfo and Statutes at Large.
