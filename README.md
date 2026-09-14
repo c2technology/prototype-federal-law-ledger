@@ -6,9 +6,9 @@ Each bill is represented by a branch and GitHub pull request. If enacted, that s
 
 ## Current status
 
-Repository scaffold and source reconnaissance are complete. No law has been imported yet.
+Issue #1 imports the First Congress's first enacted law: **An Act to regulate the Time and Manner of administering certain Oaths**, approved June 1, 1789.
 
-The first working iteration will import the First Congress's first enacted law: **An Act to regulate the Time and Manner of administering certain Oaths**, approved June 1, 1789.
+While the historical chronology is incomplete, `main` represents effective law at the latest imported enactment. It must not be read as a statement of present-day federal law.
 
 ## Core rules
 
@@ -20,6 +20,7 @@ The first working iteration will import the First Congress's first enacted law: 
 - An enacted-law PR contains the complete Public Law and every resulting Code edit.
 - Effective uncodified provisions live beside the Code representation under `effective/uncodified/`.
 - `main` represents consolidated effective statutory text after merged enactments.
+- Until the chronology reaches the present, `main` reflects the latest imported historical enactment rather than current-day law.
 - Enacted and unsuccessful bills receive durable tags.
 - Important facts remain available after an ordinary clone.
 
