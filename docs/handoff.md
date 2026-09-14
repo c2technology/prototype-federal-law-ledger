@@ -7,7 +7,7 @@
 - Initial official-source reconnaissance is in `docs/sources.md`.
 - No law or bill has been imported.
 - No runtime, package installation, or build is required.
-- `AGENTS.md` is required by the specification but was not created because the protected-file write approval timed out. It remains a scaffold follow-up.
+- Repository contribution and agent instructions are in `AGENTS.md`.
 
 ## Verified resources
 

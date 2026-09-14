@@ -26,10 +26,11 @@ The first working iteration will import the First Congress's first enacted law: 
 ## Read first
 
 1. [`SPECIFICATION.md`](SPECIFICATION.md) — agreed product requirements and acceptance criteria.
-2. [`docs/architecture.md`](docs/architecture.md) — repository structure and lifecycle.
-3. [`docs/sources.md`](docs/sources.md) — official source inventory and known coverage limits.
-4. [`MEMORY.md`](MEMORY.md) — durable project decisions and constraints.
-5. [`docs/handoff.md`](docs/handoff.md) — current implementation state and next work.
+2. [`AGENTS.md`](AGENTS.md) — contribution, evidence, attribution, and verification rules.
+3. [`docs/architecture.md`](docs/architecture.md) — repository structure and lifecycle.
+4. [`docs/sources.md`](docs/sources.md) — official source inventory and known coverage limits.
+5. [`MEMORY.md`](MEMORY.md) — durable project decisions and constraints.
+6. [`docs/handoff.md`](docs/handoff.md) — current implementation state and next work.
 
 ## Use
 
